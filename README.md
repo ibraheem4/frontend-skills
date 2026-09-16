@@ -12,9 +12,15 @@ engineering practice — these are the ones that only apply when you are buildin
 | `tailwind-v4` | CSS-first `@theme` config, v3→v4 migration, classes that silently don't generate |
 | `ui-component-lookup` | A quick reference card for any component: anatomy, props, a11y, anti-patterns |
 | `scroll-driven-animation` | Scroll-linked motion — pinning, reveal-on-enter, and why it renders blank |
+| `interface-design` | Designing or reviewing a screen against the repo's own design contract |
+| `theme-audit` | Finding drift: local foundation values, copied components, superseded references |
 
 `better-accessibility` and `web-design-guidelines` are deliberately distinct: the first is
 component-level engineering, the second reviews a surface that already exists.
+
+`interface-design` and `theme-audit` are a pair: one builds against a contract, the other finds
+where a screen has drifted from it. Both read the contract from a profile rather than carrying
+one, so they survive a redesign — see `interface-design/references/contract-example.md`.
 
 ## Install
 
