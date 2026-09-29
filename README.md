@@ -1,3 +1,5 @@
+> **Moved.** This plugin now lives in [`ibraheem4/claude-marketplace` → `plugins/frontend-skills`](https://github.com/ibraheem4/claude-marketplace/tree/main/plugins/frontend-skills), history included. This repo is archived; install with `/plugin install frontend-skills@ibraheem4`.
+
 # Frontend Skills
 
 Frontend and UI engineering for AI coding agents. Split out of
